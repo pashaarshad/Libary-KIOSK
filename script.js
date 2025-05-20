@@ -1,17 +1,19 @@
-// Change text color based on background gradient step
-const colors = ['white', 'black', 'red'];
-const elements = document.querySelectorAll('.welcome-text, .kiosk-text, .designed-by');
-
+// Ensure text color adapts to the background gradient
+const textElements = document.querySelectorAll('.welcome-text, .kiosk-text, .designed-by');
 let colorIndex = 0;
+const colors = ['white', 'black'];
 
-setInterval(() => {
-  elements.forEach(el => {
-    el.style.color = colors[colorIndex];
-  });
-  colorIndex = (colorIndex + 1) % colors.length;
-}, 2000); // Change every 2 seconds
+function updateTextColor() {
+    colorIndex = (colorIndex + 1) % colors.length;
+    textElements.forEach(el => el.style.color = colors[colorIndex]);
+}
+
+// Change text color every 3 seconds
+setInterval(updateTextColor, 1000);
 
 // Redirect to Google after 10 seconds
 setTimeout(() => {
-  window.location.href = "https://www.google.com";
-}, 10000); // 10 seconds
+   //  window.location.href = 'https://mycampuz.co.in/visitor';
+    window.location.href = 'https://mycampuz.co.in/visitor/#/visitor';
+
+}, 2530);
