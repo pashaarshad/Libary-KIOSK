@@ -13,7 +13,7 @@ setInterval(updateTextColor, 1000);
 
 // Redirect to Google after 10 seconds
 setTimeout(() => {
-  //  window.location.href = 'https://mycampuz.co.in/visitor';
-   window.location.href = 'https://mycampuz.co.in/visitor/#/visitor';
+   window.location.href = 'https://mycampuz.co.in/visitor';
+ //  window.location.href = 'https://mycampuz.co.in/visitor/#/visitor';
 
 }, 2530);
