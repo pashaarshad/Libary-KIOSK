@@ -15,5 +15,6 @@ setInterval(updateTextColor, 1000);
 setTimeout(() => {
    window.location.href = 'https://mycampuz.co.in/visitor';
  //  window.location.href = 'https://mycampuz.co.in/visitor/#/visitor';
+// i need check this again 
 
 }, 2530);
