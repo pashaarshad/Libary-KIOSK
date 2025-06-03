@@ -16,5 +16,6 @@ setTimeout(() => {
    window.location.href = 'https://mycampuz.co.in/visitor';
  //  window.location.href = 'https://mycampuz.co.in/visitor/#/visitor';
 // i need check this again 
+    // i have time till the date of 26/6/2025 i need to create the OS OR type of KIOSK system by using the linuex
 
 }, 2530);
